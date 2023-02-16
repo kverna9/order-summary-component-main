@@ -1,0 +1,143 @@
+body{
+    display: flex;
+}
+/*this is main container`s styles*/
+.container{
+    width: 375px;
+    background-image:url(.//images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    margin: auto;
+}
+/*this is content container`s styles*/
+.form-container{
+    width: 325px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 65px 25px 65px 25px;
+    border-radius: 20px;
+}
+/*this is content`s photo`s styiles*/
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/*this is string`s "Order Summary" styles*/
+.form-container > h1{
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+/*this is styles of paragraph, after string "Order Summary"*/
+.paragraph-div{
+    width: 255px;
+    margin: auto;
+}
+.paragraph-div > p{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 27px;
+}
+/*this is Annual Plane container`s styles*/
+.annual-plan{
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: hsl(226, 48%, 95%);
+    display: flex;
+}
+/*this img of container annual container*/
+.annual-plan > img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+/*this is styles of annual plane container first and second text`s*/
+.annual-plan > div > .first{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    line-height: 5px;
+    margin-top: 27px;
+    color: hsl(223, 47%, 23%);
+}
+.annual-plan > div > .second{
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight:lighter;
+}
+/*this is change`s styles and hover*/
+span{
+    margin: 30px 5px 30px 30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+span:hover{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+    color:hsl(246, 52%, 62%);
+    cursor: pointer;
+}
+/*this is button`s styles and hover*/
+button{
+    width: 87%;
+    height: 45px;
+    border-radius: 10px;
+    margin: 30px 20px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+button:hover{
+    background-color: hsl(245, 68%, 62%);
+    cursor: pointer;
+}
+/*this is cancel order`s styles an hover*/
+.cancel{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
+.cancel-order{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.cancel-order:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+/*this is responsiv web design*/
+@media screen and (min-width: 768px){
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        background-image:url(.//images/pattern-background-desktop.svg);
+        background-position-y: -70px;
+    }
+    .form-container{
+        width: 375px;
+        margin: 75px auto;
+    }
+    .paragraph-div{
+        width: 300px;
+    }
+}
